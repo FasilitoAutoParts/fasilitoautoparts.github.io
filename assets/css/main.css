@@ -2723,6 +2723,7 @@
 		}
 
 		#header .logo {
+			background-image: url(/images/bl-logo.png);
 			color: #ffffff;
 			display: inline-block;
 			font-weight: 400;
