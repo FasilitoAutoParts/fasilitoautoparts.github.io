@@ -2723,7 +2723,6 @@
 		}
 
 		#header .logo {
-			background-image: url(/images/bl-logo.png);
 			color: #ffffff;
 			display: inline-block;
 			font-weight: 400;
@@ -2918,7 +2917,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(/images/banner.jpeg);
+		background-image: url(\images\banner.jpg);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
