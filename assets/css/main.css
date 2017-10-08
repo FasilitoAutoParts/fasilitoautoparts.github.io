@@ -3161,3 +3161,26 @@
 			}
 
 		}
+
+		.numberCircle {
+			border-radius: 50%;
+			behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+		
+			width: 36px;
+			/*height: 36px;*/
+			/*padding: 8px;*/
+			
+			background: #fff;
+			border: 2px solid #dd0000;
+			color: #dd0000;
+			text-align: center;
+			
+			font: 32px Arial, sans-seri;
+			
+		}
+		.how-it-works {
+			padding: 0 10px;
+		}
+		#hiw1, #hiw2, #hiw3, #hiw4{
+			border-right: 2px solid rgb(116, 116, 116);
+		}
