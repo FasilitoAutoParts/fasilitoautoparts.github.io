@@ -2176,7 +2176,7 @@
 		}
 
 		.box.person {
-			border: solid 1px #950000ff;
+			border: solid 1px #950000;
 			padding: 3em 1.5em;
 		}
 
@@ -2532,8 +2532,8 @@
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #950000;
-		color: #950000 !important;
+		box-shadow: inset 0 0 0 3px #b70000;
+		color: #fff !important;
 		border-radius: 30px;
 		border: 0;
 		cursor: pointer;
@@ -2556,7 +2556,7 @@
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 3px #e2e2e2;
-			background-color: rgb(155, 46, 46);
+			background-color: #b70000;
 			color: #e2e2e2 !important;
 		}
 
@@ -2763,7 +2763,7 @@
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #dd0000;
 			}
 
 			#header a:last-child {
@@ -2847,8 +2847,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #950000ff;
-		color: #daefe3;
+		background: #950000;
+		color: #e2e2e2;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -2866,8 +2866,8 @@
 		}
 
 		#navPanel a:not(.close) {
-			border-top: solid 1px #950000;
-			color: #daefe3;
+			border-top: solid 1px rgb(155, 46, 46);
+			color: #e2e2e2;
 			font-weight: 600;
 			display: block;
 			padding: 0.75em 0;
@@ -2887,7 +2887,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #daefe3;
+			color: #e2e2e2;
 			cursor: pointer;
 			display: block;
 			height: 4em;
@@ -2969,7 +2969,7 @@
 		}
 
 		#banner .icon {
-			color: #dd0000;
+			color: #b70000;
 			font-size: 2em;
 		}
 
@@ -3170,8 +3170,6 @@
 
 		.numberCircle {
 			border-radius: 50%;
-			behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-		
 			width: 36px;
 			/*height: 36px;*/
 			/*padding: 8px;*/
